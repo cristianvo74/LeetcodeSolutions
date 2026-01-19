@@ -1,4 +1,4 @@
-# Last updated: 19/1/2026, 1:35:51 p. m.
+# Last updated: 19/1/2026, 1:42:05 p. m.
 1class Solution:
 2    def mergeAlternately(self, word1: str, word2: str) -> str:
 3        max_lenght = max(len(word1), len(word2))
