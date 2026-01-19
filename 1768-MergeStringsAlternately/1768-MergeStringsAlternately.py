@@ -1,4 +1,4 @@
-# Last updated: 19/1/2026, 2:11:15 p. m.
+# Last updated: 19/1/2026, 2:11:34 p. m.
 1class Solution:
 2    def mergeAlternately(self, word1: str, word2: str) -> str:
 3        min_l = min(len(word1), len(word2))
