@@ -1,13 +1,13 @@
-# Last updated: 20/1/2026, 12:50:32 p. m.
+# Last updated: 20/1/2026, 1:04:02 p. m.
 1class Solution:
 2    def reverseVowels(self, s: str) -> str:
-3        vowels = "aeiou"
-4        vwls = [v for v in s if v.lower() in vowels]
+3        vowels = set("aeiouAEIOU")
+4        vwls = [v for v in s if v in vowels]
 5        s = list(s)
 6
 7        result = []
 8        for c in s:
-9            if c.lower() in vowels:
+9            if c in vowels:
 10                v = vwls.pop()
 11                result.append(v)
 12            else:
