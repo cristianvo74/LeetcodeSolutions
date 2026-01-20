@@ -1,4 +1,4 @@
-# Last updated: 20/1/2026, 1:55:21 a. m.
+# Last updated: 20/1/2026, 1:56:03 a. m.
 1class Solution:
 2    def gcdOfStrings(self, str1: str, str2: str) -> str:
 3        for i in range(len(str1), 0 , -1):
