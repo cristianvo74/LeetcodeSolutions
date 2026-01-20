@@ -1,4 +1,4 @@
-# Last updated: 20/1/2026, 1:15:38 p. m.
+# Last updated: 20/1/2026, 1:21:20 p. m.
 1class Solution:
 2    def reverseWords(self, s: str) -> str:
 3        s = s.split()
