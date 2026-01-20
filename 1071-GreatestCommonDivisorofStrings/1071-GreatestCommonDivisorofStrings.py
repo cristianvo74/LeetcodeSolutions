@@ -1,4 +1,4 @@
-# Last updated: 20/1/2026, 2:30:46 a. m.
+# Last updated: 20/1/2026, 2:40:07 a. m.
 1class Solution:
 2    def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
 3        counter = 0
