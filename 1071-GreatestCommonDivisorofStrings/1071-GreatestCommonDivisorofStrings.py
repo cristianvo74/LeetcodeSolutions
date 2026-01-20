@@ -1,9 +1,12 @@
-# Last updated: 20/1/2026, 1:56:03 a. m.
+# Last updated: 20/1/2026, 2:05:34 a. m.
 1class Solution:
-2    def gcdOfStrings(self, str1: str, str2: str) -> str:
-3        for i in range(len(str1), 0 , -1):
-4            candidate = str1[:i]
-5            if len(str2) % i == 0:
-6                if str2 == candidate * (len(str2)//len(candidate)) and str1 == candidate * (len(str1)//len(candidate)):
-7                    return candidate
-8        return ""
+2    def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
+3        max_val = max(candies)
+4        result = []
+5        for kid in candies:
+6            if kid + extraCandies >= max_val:
+7                result.append(True)
+8            else:
+9                result.append(False)
+10        return result
+11        
