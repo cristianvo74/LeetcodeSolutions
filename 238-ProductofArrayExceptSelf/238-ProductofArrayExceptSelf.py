@@ -1,4 +1,4 @@
-# Last updated: 22/1/2026, 12:22:48 p. m.
+# Last updated: 22/1/2026, 12:22:59 p. m.
 1class Solution:
 2    def productExceptSelf(self, nums: List[int]) -> List[int]:
 3        n = len(nums)
